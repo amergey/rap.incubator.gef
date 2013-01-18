@@ -23,14 +23,14 @@ public class SharedMessages {
 	/**
 	 * The string "Page".
 	 */
-	public static String FitAllAction_Label = GEFMessages.FitAllAction_Label;
+	public static String FitAllAction_Label = GEFMessages.get().FitAllAction_Label;
 	/**
 	 * The string "Width".
 	 */
-	public static String FitWidthAction_Label = GEFMessages.FitWidthAction_Label;
+	public static String FitWidthAction_Label = GEFMessages.get().FitWidthAction_Label;
 	/**
 	 * The string "Height".
 	 */
-	public static String FitHeightAction_Label = GEFMessages.FitHeightAction_Label;
+	public static String FitHeightAction_Label = GEFMessages.get().FitHeightAction_Label;
 
 }

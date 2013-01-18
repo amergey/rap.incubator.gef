@@ -37,7 +37,7 @@ import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.jface.viewers.ListViewer;
 import org.eclipse.jface.viewers.SelectionChangedEvent;
-import org.eclipse.rap.rwt.lifecycle.IEntryPoint;
+import org.eclipse.rap.rwt.application.EntryPoint;
 import org.eclipse.rap.rwt.lifecycle.UICallBack;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.SashForm;
@@ -52,7 +52,7 @@ import org.eclipse.ui.part.ViewPart;
  * This class controls all aspects of the application's execution
  * and is contributed through the plugin.xml.
  */
-public class Application implements IEntryPoint 
+public class Application implements EntryPoint 
 {
  
   public int createUI() 

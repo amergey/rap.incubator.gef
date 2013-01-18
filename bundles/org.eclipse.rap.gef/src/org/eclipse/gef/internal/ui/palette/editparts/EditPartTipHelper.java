@@ -10,6 +10,7 @@
  *******************************************************************************/
 package org.eclipse.gef.internal.ui.palette.editparts;
 
+import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.PaintEvent;
 import org.eclipse.swt.events.PaintListener;
 import org.eclipse.swt.events.ShellAdapter;
@@ -22,7 +23,6 @@ import org.eclipse.swt.widgets.Shell;
 
 import org.eclipse.draw2d.IFigure;
 import org.eclipse.draw2d.geometry.Dimension;
-import org.eclipse.swt.SWT;
 
 class EditPartTipHelper extends org.eclipse.draw2d.PopUpHelper {
 

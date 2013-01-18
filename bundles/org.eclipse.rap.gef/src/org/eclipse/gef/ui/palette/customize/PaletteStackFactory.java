@@ -28,10 +28,10 @@ public class PaletteStackFactory extends PaletteEntryFactory {
 
 	/**
 	 * Creates a new PaletteStackFactory with label
-	 * PaletteMessages.MODEL_TYPE_STACK
+	 * PaletteMessages.get().MODEL_TYPE_STACK
 	 */
 	public PaletteStackFactory() {
-		setLabel(PaletteMessages.MODEL_TYPE_STACK);
+		setLabel(PaletteMessages.get().MODEL_TYPE_STACK);
 	}
 
 	/**
@@ -48,7 +48,7 @@ public class PaletteStackFactory extends PaletteEntryFactory {
 	 * @see org.eclipse.gef.ui.palette.customize.PaletteEntryFactory#createNewEntry(Shell)
 	 */
 	protected PaletteEntry createNewEntry(Shell shell) {
-		return new PaletteStack(PaletteMessages.NEW_STACK_LABEL, null, null);
+		return new PaletteStack(PaletteMessages.get().NEW_STACK_LABEL, null, null);
 	}
 
 	/**
