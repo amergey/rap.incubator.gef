@@ -5,6 +5,7 @@
    <extension
          point="org.eclipse.rap.ui.entrypoint">
       <entrypoint
+            brandingId="org.eclipse.rap.gef.demo.branding"
             class="org.eclipse.rap.gef.demo.Application"
             id="org.eclipse.rap.gef.demo.Application"
             path="/gef">
