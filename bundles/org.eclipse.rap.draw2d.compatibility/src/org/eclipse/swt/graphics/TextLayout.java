@@ -118,6 +118,7 @@ public TextLayout (Device device) {
 	styles = new StyleItem[2];
 	styles[0] = new StyleItem();
 	styles[1] = new StyleItem();
+	textField = new TextField();
 }
 
 void checkLayout () {
@@ -464,7 +465,7 @@ public void draw (GC gc, int x, int y, int selectionStart, int selectionEnd, Col
 }
 
 void freeRuns () {
-	textField = null;
+	textField = new TextField();
 }
 
 public int getAlignment () {
