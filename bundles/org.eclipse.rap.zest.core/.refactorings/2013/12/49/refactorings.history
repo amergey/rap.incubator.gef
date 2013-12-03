@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;org.eclipse.rap.zest.core&apos;&#x0A;- Original project: &apos;org.eclipse.rap.zest.core&apos;&#x0A;- Original elements:&#x0A;     org.eclipse.rap.zest.core/src/icons&#x0A;     org.eclipse.rap.zest.core/src/org.eclipse.zest.core&#x0A;- Delete subpackages" description="Delete elements" element1="/src&lt;org.eclipse.zest.core.widgets.internal" element2="/src&lt;org.eclipse.zest.core.widgets" element3="/src&lt;org.eclipse.zest.core.viewers.internal" element4="/src&lt;org.eclipse.zest.core.viewers" element5="/src&lt;org.eclipse.zest.core" element6="/src&lt;org.eclipse.zest" element7="/src&lt;org.eclipse" element8="/src&lt;org" element9="/src&lt;icons" elements="9" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1385982944908" subPackages="true" version="1.0"/>
+</session>
